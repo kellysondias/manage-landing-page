@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+:root {
+    --primary-color: hsl(12, 88%, 59%);
+    --secondary-color: hsl(228, 39%, 23%);
+    --font-color: hsl(227, 12%, 61%);
+    --footer-color: hsl(233, 12%, 13%);
+    --light-font-hover: hsl(13, 100%, 96%);
+    --light-hover: hsl(0, 0%, 98%);
+}

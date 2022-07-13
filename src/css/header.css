@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #eee;
+    padding: 40px 0;
+}
+
+.header div img {
+    margin-top: 5px;
+}
+
+.header .nav-bar ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header .nav-bar ul li {
+    font-weight: 500;
+    margin-right: 5rem;
+    font-size: 15px;
+}
