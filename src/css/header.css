@@ -19,5 +19,10 @@
 .header .nav-bar ul li {
     font-weight: 500;
     margin-right: 5rem;
-    font-size: 15px;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.header .nav-bar ul li:hover {
+    color: var(--light-font-hover);
 }

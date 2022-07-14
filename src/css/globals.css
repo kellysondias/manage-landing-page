@@ -15,5 +15,16 @@ body {
     --font-color: hsl(227, 12%, 61%);
     --footer-color: hsl(233, 12%, 13%);
     --light-font-hover: hsl(13, 100%, 96%);
-    --light-hover: hsl(0, 0%, 98%);
+    --light-grey: hsl(0, 0%, 98%);
+}
+
+.contact-btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: var(--primary-color);
+    padding: 1.3rem 2.5rem;
+    border-radius: 2.5rem;
+    color: var(--light-grey);
+    box-shadow: 0.1rem 0.1rem 1.3rem var(--primary-color);
+    cursor: pointer;
 }
