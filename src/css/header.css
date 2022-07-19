@@ -7,8 +7,8 @@
     padding: 40px 0;
 }
 
-.header div img {
-    margin-top: 5px;
+.header .logo {
+    margin-top: 0.5rem;
 }
 
 .header .nav-bar ul {
@@ -16,13 +16,120 @@
     flex-flow: row wrap;
 }
 
-.header .nav-bar ul li {
+.header .nav-bar ul li a {
     font-weight: 500;
     margin-right: 5rem;
     font-size: 1.5rem;
     transition: 0.2s ease-in-out;
 }
 
-.header .nav-bar ul li:hover {
-    color: var(--light-font-hover);
+.header .nav-bar ul li a:hover {
+    color: var(--dark-grayish-blue);
+}
+
+.header .menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0.9rem;
+    margin-right: 0.5rem;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.header .hamburger {
+    background-color: #000;
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.header .hamburger:before, 
+.header .hamburger:after {
+    background-color: #000;
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    transition: 0.3s ease-in-out;
+}
+
+.header .hamburger:before {
+    top: -10px;
+}
+
+.header .hamburger:after {
+    bottom: -10px;
+}
+
+.header input:checked ~ label .hamburger {
+    transform: rotate(45deg);
+}
+
+.header input:checked ~ label .hamburger:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.header input:checked ~ label .hamburger:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.header input {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .header .logo {
+        position: absolute;
+        left: 0;
+        margin-left: 2rem;
+    }
+
+    .header .menu {
+        display: block;
+    }
+
+    .header .contact-btn {
+        display: none;
+    }
+
+    .header .nav-bar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        /* width: 100%; */
+        text-align: center;
+    }
+
+    .header .nav-bar ul {
+        position: absolute;
+        flex-flow: column nowrap;
+        background-color: #a89595;
+        border-radius: 0.3rem;
+        margin-top: 5rem;
+        /* width: 100%; */
+        /* padding: 0 40%; */
+    }
+
+    .header .nav-bar ul li a {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    .header .nav-bar input:checked ~ ul {
+        /* display: block; */
+    }
+
+    main,section,footer {
+        display: none;
+    }
 }
