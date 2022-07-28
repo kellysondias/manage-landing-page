@@ -8,6 +8,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    position: relative;
 }
 
 :root {
@@ -36,8 +37,8 @@ body {
     color: #fffffe;
 }
 
-#backdrop {
-    /* display: none; */
+.backdrop {
+    display: none;
     position: absolute;
     top: 0;
     left: 0;
@@ -46,4 +47,12 @@ body {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.301);
     backdrop-filter: blur(3px);
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }
