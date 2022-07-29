@@ -1,23 +1,32 @@
 .hero {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    /* width: 70%;
-    margin: 0 auto; */
+    flex-flow: row wrap;
+    margin: 9rem auto 0 auto;
+    width: 85%;
+    background-color: #eee;
 }
 
-.hero .image img  {
-    max-width: 425px;
-    width: 100%;
+.hero .text {
+    width: 50%;
 }
 
 .hero .text h2 {
     font-weight: 700;
-    font-size: 3rem;
-    width: 30%;
-    
+    font-size: 4.9rem;
+    color: var(--footer-color);
 }
+
+.hero .text p {
+    margin: 2.5rem 0 4.8rem 0;
+    width: 75%;
+    color: var(--dark-grayish-blue);
+    font-size: 2rem;
+}
+
+.hero .image img  {
+    max-width: 550px;
+}
+
 
 /* .about, .clients, .ad, footer {
     display: none;

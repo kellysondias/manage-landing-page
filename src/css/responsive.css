@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 921px) {
     .show {
         display: block;
     }
@@ -70,5 +70,11 @@
 
     .header input:checked ~ .mobile-nav-bar {
         display: flex;
+    }
+
+    .hero {
+        background-color: red;
+        padding: 0 18px;
+        width: 100%;
     }
 }

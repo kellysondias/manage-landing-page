@@ -15,7 +15,7 @@ body {
     --primary-color: hsl(12, 88%, 59%);
     --secondary-color: hsl(228, 39%, 23%);
     --dark-grayish-blue: hsl(227, 12%, 61%);
-    --footer-color: hsl(233, 12%, 13%);
+    --tertiary-color: hsl(233, 12%, 13%);
     --light-font-hover: hsl(13, 100%, 96%);
     --light-grey: hsl(0, 0%, 98%);
 }
