@@ -26,7 +26,6 @@ body {
     background: var(--primary-color);
     padding: 1.3rem 2.5rem;
     border-radius: 2.5rem;
-    color: var(--light-grey);
     box-shadow: 0.1rem 0.1rem 1.3rem var(--primary-color);
     cursor: pointer;
     transition: 0.2s ease-in-out;
@@ -34,6 +33,13 @@ body {
 
 .contact-btn:hover {
     background-color: #fa8e76;
+}
+
+.contact-btn a {
+    color: var(--light-grey);
+}
+
+.contact-btn a:hover {
     color: #fffffe;
 }
 
@@ -50,9 +56,9 @@ body {
 }
 
 .show {
-    display: block;
+    display: none;
 }
 
-.hide {
+.mobile-menu {
     display: none;
 }

@@ -1,13 +1,16 @@
 const mobileMenu = document.querySelector('#hamburger-menu')
 
 mobileMenu.addEventListener('click', () => {
-    const backdrop = document.querySelector('.backdrop')
-    const secondBackDropClass = backdrop.classList[1]
+    const background = document.querySelector('.backdrop')
+    const secondBackgroundClass = background.classList[1]
 
-    console.log(secondBackDropClass)
+    console.log(secondBackgroundClass)
 
-    backdrop.classList.add("show")
+    background.classList.add("show")
 
-    if (secondBackDropClass === "show") backdrop.classList.remove("show")
+    console.log(background.classList[1])
 
+    if (secondBackgroundClass === "show") {
+        background.classList.remove("show")
+    }
 })
