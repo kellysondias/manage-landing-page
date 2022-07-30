@@ -3,7 +3,6 @@
     flex-flow: row wrap;
     margin: 9rem auto 0 auto;
     width: 85%;
-    background-color: #eee;
 }
 
 .hero .text {
@@ -13,7 +12,7 @@
 .hero .text h2 {
     font-weight: 700;
     font-size: 4.9rem;
-    color: var(--footer-color);
+    color: var(--tertiary-color);
 }
 
 .hero .text p {
@@ -26,8 +25,3 @@
 .hero .image img  {
     max-width: 550px;
 }
-
-
-/* .about, .clients, .ad, footer {
-    display: none;
-} */

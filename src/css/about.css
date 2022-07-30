@@ -1,0 +1,59 @@
+.about {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 4rem 1.1rem;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.about .text {
+    margin: 1.8rem 0 1rem 0;
+}
+
+.about .text h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 2.6rem;
+    color: var(--tertiary-color);
+}
+
+.about .text p {
+    font-size: 1.8rem;
+    width: 77%;
+    color: var(--dark-grayish-blue);
+}
+
+.about .cards .card {
+    padding: 20px;
+    margin: 5px 0;
+    position: relative;
+}
+
+.about .cards .card div {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 5.6rem;
+}
+
+.about .cards .card div h3 {
+    color: var(--tertiary-color);
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.about .cards .card div p {
+    font-size: 1.7rem;
+    color: var(--dark-grayish-blue);
+}
+
+.about .cards .card span {
+    top: 12px;
+    left: 0;
+    border-radius: 2.5rem;
+    position: absolute;
+    padding: 0.8rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--light-grey);
+}
