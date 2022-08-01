@@ -1,7 +1,3 @@
-/* .header, .hero, */ .clients/* , .ad, footer */ {
-    display: none;
-}
-
 @media (max-width: 1294px) {
     .hero {
         flex-flow: column-reverse wrap;
@@ -38,8 +34,14 @@
     }
 }
 
+@media (max-width: 900px) {
+    .slider-dots {
+        display: flex;
+    }
+}
+
 @media (max-width: 921px) {
-    .show {
+    .show-menu {
         display: block;
     }
 
@@ -110,6 +112,33 @@
 
     .header input:checked ~ .mobile-nav-bar {
         display: flex;
+    }
+}
+
+@media (max-width: 899px) {
+    .email-section {
+        justify-content: center;
+    }
+
+    .email-section h2 {
+        text-align: center;
+        width: 100%;
+        line-height: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-btn.light {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 809px) {
+    .footer .fourth-column {
+        margin-top: 3rem;
+    }
+
+    .footer .fourth-column .copyright {
+        margin-top: 3rem;
     }
 }
 
@@ -191,7 +220,66 @@
     }
 }
 
+@media (max-width: 630px) {
+    .clients .cards .client-card .client {
+        max-width: 300px;
+    }
+
+    .clients .cards .client-card .client p {
+        padding: 0;
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 512px) {
+    .footer {
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .footer .first-column {
+        margin: 30px auto;
+    }
+
+    .footer .first-column .logo {
+        margin-bottom: 20px;
+    }
+
+    .footer .second-column {
+        margin: 0 auto;
+    }
+
+    .footer .third-column {
+        margin: 30px auto;
+    }
+
+    .footer .fourth-column {
+        margin: 0 auto;
+    }
+
+    .footer .fourth-column .copyright {
+        position: absolute;
+        top: 400px;
+        align-self: center;
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 481px) {
+    .footer .fourth-column .email-btn {
+        margin-top: 15px;
+    }
+
+    .footer .fourth-column .copyright {
+       top: 486px;
+    }
+}
+
 @media (max-width: 398px) {
+    .about .cards .card {
+        margin: 0;
+    }
+    
     .about .cards .card div h3 {
         font-size: 1.2rem;
     }

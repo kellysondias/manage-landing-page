@@ -13,9 +13,11 @@ body {
 
 :root {
     --primary-color: hsl(12, 88%, 59%);
+    --bright-orange: hsl(12, 86%, 51%);
     --secondary-color: hsl(228, 39%, 23%);
     --dark-grayish-blue: hsl(227, 12%, 61%);
     --tertiary-color: hsl(233, 12%, 13%);
+    --dark-brown: rgb(12, 8, 8);
     --light-font-hover: hsl(13, 100%, 96%);
     --light-grey: hsl(0, 0%, 98%);
 }
@@ -23,7 +25,7 @@ body {
 .contact-btn {
     font-size: 1.5rem;
     font-weight: 700;
-    background: var(--primary-color);
+    background-color: var(--primary-color);
     padding: 1.3rem 2.5rem;
     border-radius: 2.5rem;
     box-shadow: 0.1rem 0.1rem 1.3rem var(--primary-color);
@@ -55,10 +57,45 @@ body {
     backdrop-filter: blur(3px);
 }
 
-.show {
+/* .show {
+    display: block;
+} */
+
+.show-menu {
     display: none;
 }
 
 .mobile-menu {
     display: none;
+}
+
+.error-messages {
+    margin: 0.7rem 1.6rem;
+}
+
+.error-messages .unfound.show,
+.error-messages .invalid.show {
+    display: block;
+}
+
+.error-messages .unfound,
+.error-messages .invalid {
+    display: none;
+    font-size: 1.2rem;
+    position: absolute;
+    left: 0;
+    margin-left: 1.3rem;
+    color: #ff0000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-dots {
+    display: none;
+    flex-flow: row nowrap;
+    margin-bottom: 3rem;
 }

@@ -1,0 +1,42 @@
+.clients {
+    margin: 3rem auto 12.6rem auto;
+}
+
+.clients h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--tertiary-color);
+}
+
+.clients .cards {
+    margin: 6rem auto 3.5rem auto;
+}
+
+.clients .cards .client-card .client {
+    background-color: #eee;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    max-width: 600px;
+    border-radius: 9px;
+    height: 100%;
+}
+
+.clients .cards .client-card .client .client-avatar h3,
+.clients .cards .client-card .client p {
+    text-align: center;
+}
+
+.clients .cards .client-card .client .client-avatar h3 {
+    margin: 1.4rem auto;
+    color: var(--tertiary-color);
+    font-weight: 700;
+}
+
+.clients .cards .client-card .client p {
+    margin-bottom: 2rem;
+    padding: 0 3.1rem;
+    max-width: 55ch;
+}

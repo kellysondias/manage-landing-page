@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
   <link rel="stylesheet" href="src/css/globals.css">
   <link rel="stylesheet" href="src/css/font-awesome-min.css">
   <link rel="stylesheet" href="src/css/header.css">
   <link rel="stylesheet" href="src/css/hero.css">
   <link rel="stylesheet" href="src/css/about.css">
+  <link rel="stylesheet" href="src/css/clients.css">
+  <link rel="stylesheet" href="src/css/email-section.css">
+  <link rel="stylesheet" href="src/css/footer.css">
   <link rel="stylesheet" href="src/css/responsive.css">
   <title>Manage</title>
 </head>
@@ -117,97 +121,114 @@
     </section>
   
     <section class="clients">
-      <div><h2>What they’ve said</h2></div>
+      <div class="center"><h2>What they’ve said</h2></div>
     
-      <div class="client-card">
-        <div class="client-avatar">
-          <img src="src/img/avatar-anisha.png" alt="Anisha's avatar">
-          <h3>Anisha Li</h3>
+      <div class="cards slider">
+        <div class="client-card">
+          <div class="client">
+            <div class="client-avatar">
+              <img src="src/img/avatar-anisha.png" alt="Anisha's avatar">
+              <div><h3>Anisha Li</h3></div>
+            </div>
+            <p>
+              “Manage has supercharged our team’s workflow. The ability to maintain 
+              visibility on larger milestones at all times keeps everyone motivated.”
+            </p>
+          </div>
         </div>
-        <p>
-          “Manage has supercharged our team’s workflow. The ability to maintain 
-          visibility on larger milestones at all times keeps everyone motivated.”
-        </p>
-      </div>
-    
-      <div class="client-card">
-        <div class="client-avatar">
-          <img src="src/img/avatar-ali.png" alt="Ali's avatar">
-          <h3>Ali Bravo</h3>
+      
+        <div class="client-card">
+          <div class="client">
+            <div class="client-avatar">
+              <img src="src/img/avatar-ali.png" alt="Ali's avatar">
+              <h3>Ali Bravo</h3>
+            </div>
+            <p>
+              “We have been able to cancel so many other subscriptions since using 
+              Manage. There is no more cross-channel confusion and everyone is much 
+              more focused.”
+            </p>
+          </div>
         </div>
-        <p>
-          “We have been able to cancel so many other subscriptions since using 
-          Manage. There is no more cross-channel confusion and everyone is much 
-          more focused.”
-        </p>
-      </div>
-    
-      <div class="client-card">
-        <div class="client-avatar">
-          <img src="src/img/avatar-richard.png" alt="Richard's avatar">
-          <h3>Richard Watts</h3>
+      
+        <div class="client-card">
+          <div class="client">
+            <div class="client-avatar">
+              <img src="src/img/avatar-richard.png" alt="Richard's avatar">
+              <h3>Richard Watts</h3>
+            </div>
+            <p>
+              “Manage allows us to provide structure and process. It keeps us organized 
+              and focused. I can’t stop recommending them to everyone I talk to!”
+            </p>
+          </div>
         </div>
-        <p>
-          “Manage allows us to provide structure and process. It keeps us organized 
-          and focused. I can’t stop recommending them to everyone I talk to!”
-        </p>
-      </div>
-    
-      <div  class="client-card">
-        <div class="client-avatar">
-          <img src="src/img/avatar-shanai.png" alt="Shanai's avatar">
-          <h3>Shanai Gough</h3>
+      
+        <div  class="client-card">
+          <div class="client">
+            <div class="client-avatar">
+              <img src="src/img/avatar-shanai.png" alt="Shanai's avatar">
+              <h3>Shanai Gough</h3>
+            </div>
+            <p>
+              “Their software allows us to track, manage and collaborate on our projects 
+              from anywhere. It keeps the whole team in-sync without being intrusive.”
+            </p>
+          </div>
         </div>
-        <p>
-          “Their software allows us to track, manage and collaborate on our projects 
-          from anywhere. It keeps the whole team in-sync without being intrusive.”
-        </p>
       </div>
-      <div><button class="contact-btn"><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Get Started</a></button></div>
+      <div class="slider-dots" role="tablist"></div>
+      <div class="center"><button class="contact-btn"><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Get Started</a></button></div>
     </section>
   </main>
 
-  <section class="ad">
+  <section class="email-section">
     <h2>Simplify how your team works today.</h2>
-    <div><button class="contact-btn light"><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Get Started</a></button></div>
+    <div><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><button class="contact-btn light">Get Started</button></a></div>
   </section>
 
-  <footer>
-    <div>
-      <div><img style="background-color: #000;" src="src/img/logo-white.svg" alt="Manage's logo"></div>
+  <footer class="footer">
+    <div class="first-column">
+      <div class="logo"><img src="src/img/logo-white.svg" alt="Manage's logo"></div>
   
-      <ul>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
-        <li><i></i></li>
+      <ul class="icons">
+        <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+        <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
       </ul>
     </div>
 
-    <div>
-      <ul>
-        <li>Home</li>
-        <li>Pricing</li>
-        <li>Products</li>
-        <li>About Us</li>
-      </ul>
+    <ul class="second-column">
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Home</a></li>
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Pricing</a></li>
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Products</a></li>
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">About Us</a></li>
+    </ul>
 
-      <ul>
-        <li>Careers</li>
-        <li>Community</li>
-        <li>Privacy Policy</li>
-      </ul>
-    </div>
+    <ul class="third-column">
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Careers</a></li>
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Community</a></li>
+      <li><a href="https://kellysondias.github.io/meu-portfolio/" target="_blank">Privacy Policy</a></li>
+    </ul>
   
-    <div>
-      <input type="text" name="email">
-      <button>Go</button>
+    <div class="fourth-column">
+      <div>
+        <input class="email-input" type="text" name="email" placeholder="Updates in your inbox...">
+        <button class="email-btn">Go</button>
+        <div class="error-messages">
+          <span class="unfound">Please enter your e-mail</span>
+          <span class="invalid">Please enter a valid e-mail</span>
+        </div>
+      </div>
+      <span class="copyright">Copyright 2020. All Rights Reserved</span>
     </div>
-  
-    <span>Copyright 2020. All Rights Reserved</span>
   </footer>
   <div class="backdrop"></div>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   <script type="text/javascript" src="src/js/mobile-menu.js"></script>
+  <script type="text/javascript" src="src/js/email-validation.js"></script>
+  <script type="text/javascript" src="src/js/carousel.js"></script>
 </body>
 </html>

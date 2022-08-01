@@ -1,0 +1,78 @@
+.footer {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+    background-color: var(--dark-brown);
+}
+
+.footer .first-column .logo {
+    margin-bottom: 7rem;
+}
+
+.footer .first-column .icons {
+    display: flex;
+    justify-content: space-between;
+    color: var(--light-grey);
+}
+
+.footer .second-column li,
+.footer .third-column li {
+    margin-bottom: 1.8rem;
+}
+
+.footer .second-column li:last-child,
+.footer .third-column li:last-child {
+    margin: 0;
+}
+
+.footer .first-column .icons a,
+.footer .second-column a,
+.footer .third-column a,
+.footer .fourth-column .copyright,
+.footer .fourth-column .email-btn  {
+    color: var(--light-grey);
+    transition: 0.2s ease-in-out;
+}
+
+.footer .first-column .icons a:hover,
+.footer .second-column a:hover,
+.footer .third-column a:hover,
+.footer .fourth-column .email-btn:hover {
+    color: var(--bright-orange);
+}
+
+.footer .fourth-column .email-input {
+    color: var(--tertiary-color);
+    padding: 1.2rem 3rem 1.2rem 1.3rem;
+    border-radius: 2.5rem;
+    margin-right: 5px;
+}
+
+.footer .fourth-column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.footer .fourth-column .copyright {
+    align-self: flex-end;
+    font-size: 1.1rem;
+    color: var(--dark-grayish-blue);
+}
+
+.footer .fourth-column .email-btn {
+    font-size: 1.2rem;
+    padding: 1.1rem 2.2rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    background-color: var(--bright-orange);
+}
+
+.footer .fourth-column .email-btn:hover {
+    background-color: #fa8e76;
+    color: #fffffe;
+}

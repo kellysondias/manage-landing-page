@@ -1,12 +1,13 @@
 .hero {
     display: flex;
     flex-flow: row wrap;
-    margin: 9rem auto 0 auto;
+    margin: 6.8rem auto 0 auto;
     width: 85%;
 }
 
 .hero .text {
     width: 50%;
+    margin-top: 1.1rem;
 }
 
 .hero .text h2 {
