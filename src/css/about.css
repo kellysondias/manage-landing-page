@@ -57,3 +57,95 @@
     background-color: var(--primary-color);
     color: var(--light-grey);
 }
+
+@media (max-width: 799px) {
+    .about {
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .about .text {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .about .text h2 {
+        width: 49%;
+        line-height: 3.7rem;
+    }
+
+    .about .text p {
+        line-height: 3rem;
+        font-size: 1.8rem;
+    }
+
+    .about .cards {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+
+    .about .cards .card {
+        text-align: left;
+    }
+
+    .about .cards .card div {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .about .cards .card div h3 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 0;
+        border-radius: 25px;
+        background-color: #fcbbab;
+        margin-bottom: 15px;
+    }
+
+    .about .cards .card .first h3:before,
+    .about .cards .card .second h3:before,
+    .about .cards .card .third h3:before {
+        padding: 0.8rem 2rem;
+        background-color: var(--primary-color);
+        color: var(--light-grey);
+        border-radius: 2.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .about .cards .card .first h3:before {
+        content: "01";
+    }
+
+    .about .cards .card .second h3:before {
+        content: "02";
+    }
+
+    .about .cards .card .third h3:before {
+        content: "03";
+    }
+
+    .about .cards .card span {
+        display: none;
+    }
+}
+
+@media (max-width: 398px) {
+    .about .cards .card {
+        margin: 0;
+    }
+    
+    .about .cards .card div h3 {
+        font-size: 1.2rem;
+    }
+
+    .about .cards .card div p {
+        font-size: 1.1rem;
+    }
+}

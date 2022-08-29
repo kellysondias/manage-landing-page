@@ -57,10 +57,6 @@ body {
     backdrop-filter: blur(3px);
 }
 
-/* .show {
-    display: block;
-} */
-
 .show-menu {
     display: none;
 }
@@ -94,8 +90,18 @@ body {
     align-items: center;
 }
 
-.slider-dots {
-    display: none;
-    flex-flow: row nowrap;
-    margin-bottom: 3rem;
+@media (max-width: 921px) {
+    .show-menu {
+        display: block;
+    }
+
+    @keyframes drop {
+        from{
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        to{
+            transform: translateY(0);
+        }
+    }
 }

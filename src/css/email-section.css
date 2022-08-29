@@ -22,3 +22,20 @@
 .contact-btn.light:hover {
     box-shadow: 0.1rem 0.1rem 1.3rem #fff;
 }
+
+@media (max-width: 899px) {
+    .email-section {
+        justify-content: center;
+    }
+
+    .email-section h2 {
+        text-align: center;
+        width: 100%;
+        line-height: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-btn.light {
+        font-size: 1.2rem;
+    }
+}

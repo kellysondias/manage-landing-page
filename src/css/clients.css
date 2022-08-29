@@ -40,3 +40,26 @@
     padding: 0 3.1rem;
     max-width: 55ch;
 }
+
+.slider-dots {
+    display: none;
+    flex-flow: row nowrap;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 900px) {
+    .slider-dots {
+        display: flex;
+    }
+}
+
+@media (max-width: 630px) {
+    .clients .cards .client-card .client {
+        max-width: 300px;
+    }
+
+    .clients .cards .client-card .client p {
+        padding: 0;
+        font-size: 1.4rem;
+    }
+}
